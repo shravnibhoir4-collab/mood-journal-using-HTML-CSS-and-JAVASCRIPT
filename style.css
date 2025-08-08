@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #622347;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #42164b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 9px 8px #e99856e4;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #e99856;
+}
+
+#mood-buttons button {
+  font-size: 24px;
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background-color: #1a1836;;
+}
+
+#mood-buttons button:hover {
+  transform: scale(1.1);
+}
+
+textarea {
+  width: 96%;
+  height: 400px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 5px dashed #e99856;
+  font-size: 16px;
+}
+
+#saveBtn , #en {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background-color: #a54055;
+  color: #e0b4b2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#saveBtn:hover {
+  background-color:#a5405476;
+  color:#e99856;
+}
+
+#entries {
+  margin-top: 20px;
+}
+
+.entry {
+  background-color: #eef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+

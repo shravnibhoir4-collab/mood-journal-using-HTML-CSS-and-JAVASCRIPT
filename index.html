@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🌈 Mood Journal</h1>
+    <p style="color: #e99856;">How are you feeling today?</p>
+
+    <div id="mood-buttons">
+      <button onclick="selectMood('😊')">😊</button>
+      <button onclick="selectMood('😢')">😢</button>
+      <button onclick="selectMood('😡')">😡</button>
+      <button onclick="selectMood('😴')">😴</button>
+      <button onclick="selectMood('🫠')">🫠</button>
+      <button onclick="selectMood('🤫')">🤫</button>
+      
+      
+
+    </div>
+
+    <textarea id="entry" placeholder="Write about your day..."></textarea>
+    <button id="saveBtn" onclick="saveEntry()">💾 Save Entry</button>
+    <button id="en"><a href="entry.html">Entries</a></button>
+
+  
+</body>
+</html>
